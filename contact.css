@@ -20,6 +20,7 @@
 
 .thankYouBtn {
   padding-bottom: 30px;
+  color: white;
 }
 
 .contactForm {
@@ -34,13 +35,13 @@
 }
 
 .nameInput {
-  margin: 10px 0;
+  margin: 1px 0;
 }
 
 .emailInput {
-  margin: 20px 0;
+  margin: 2px 0;
 }
 
 .messageInput {
-  margin-bottom: 10px;
+  margin-bottom: 1px;
 }
