@@ -1,7 +1,8 @@
 <?php
 
   $errors = '';
-  $myemail = 'mail@stevenmnoyes.com';//<-----Put Your email address here.
+  $myemail = 'mail@stevenmnoyes.com';
+  
   if(empty($_POST['name'])  ||
    empty($_POST['email']) ||
    empty($_POST['message']))
@@ -19,6 +20,8 @@
   {
     $errors .= "\n Error: Invalid email address";
   }
+
+
 
   if( empty($errors))
 
@@ -40,11 +43,10 @@
 
   mail($to,$email_subject,$email_body,$headers);
 
-  //redirect to 'thank you' page
+  //redirect to thank you page
 
-  header('Location: contact-form-thank-you.html');
+  header('Location: contactThankYou.html');
 
   }
-
 
 ?>
